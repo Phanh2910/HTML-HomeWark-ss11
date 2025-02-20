@@ -23,7 +23,7 @@
     gap: 5vh;
 }
 .t1{
-    background-color: #9f4a4b;
+    background-color: brown;
     width: 65%;
     height: 50vh;
     display: flex;
@@ -31,7 +31,7 @@
     align-items: center;
 }
 .t2{
-    background-color: #9f4a4b;
+    background-color: brown;
     width: 30%;
     height: 50vh;
     display: flex;
@@ -40,7 +40,7 @@
 }
 .t3, .t4, .t5, .t6, .t7, .t8{
     width: 35%;
-    background-color: #9f4a4b;
+    background-color: brown;
     height: 20vh;
     display: flex;
     justify-content: center;
