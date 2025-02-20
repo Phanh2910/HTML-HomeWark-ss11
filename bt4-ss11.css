@@ -3,62 +3,63 @@
     margin:0;
     box-sizing: border-box;
 }
-.col1{
+.c1{
     display: flex;
-    gap: 1vh;
+    gap: 2vh;
 }
-.tab1, .tab2{
+.t1, .t2{
     background-color: #ffa437;
     width: 50%;
     height: 10vh
 }
-.container{
+.lineNear{
     display: flex;
     flex-direction: column;
+    justify-content: first-baseline;
     padding: 0 3vh;
     gap: 4vh;
 }
-.col2{
+.c2{
     background-color: #daec00;
     width: 100%;
     height: 40vh;
 }
-.col3{
+.c3{
     display: flex;
     gap: 1vh;
 }
 
-.tab3, .tab4, .tab5{
+.t3, .t4, .t5{
     background-color: #4a89cf;
     width: 33%;
     height: 30vh;
 }
-.col4{
+.c4{
     display: flex;
     gap: 1vh;
 }
-.tab6, .tab7, .tab8, .tab9{
+.t6, .t7, .t8, .t9{
     background-color: #e3e3e3;
     width: 24.6%;
     height: 20vh;
 }
 @media screen and (max-width: 1200px) {
-    .col1, .col3, .col4{
+    .c1, .c3, .c4{
         flex-wrap: wrap;
     }
-    .tab1, .tab2{
+    .t1, .t2{
         width: 100%;
         height: 8vh
     }
-    .col2{
+    .c2{
         height: 30vh;
     }
 
-    .tab3, .tab4, .tab5{
+    .t3, .t4, .t5{
         width: 100%;
         height: 10vh;
     }
-    .tab6, .tab7, .tab8, .tab9{
+    .t6, .t7, .t8, .t9{
         width: 49.6%;
         height: 30px;
     
@@ -66,13 +67,13 @@
 }
 
 @media screen and(max-width: 768px) {
-    .tab3, .tab4, .tab5{
+    .t3, .t4, .t5{
         height: 50vh;
     }
-    .col4{
+    .c4{
         flex-direction: column;
     }
-    .tab6, .tab7, .tab8, .tab9{
+    .t6, .t7, .t8, .t9{
         width: 100%;
         height: 30px;
     }
