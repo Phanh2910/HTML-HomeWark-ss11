@@ -1,0 +1,95 @@
+.head{
+    background-color: red;
+    justify-content: center;
+    display: flex;
+    align-items: self-start;
+    color: white;
+    height: 70%;
+    border-radius: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h2{
+    margin: 2vh;
+    display: flex;
+    height: 50px;
+}
+.side1{
+    background-color: #008001;
+    color: white;
+    border-radius: 10px;
+}
+.side2{
+    background-color: #ff68b3;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+}
+.main{
+    background-color: #ffff05;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    flex: 1;
+}
+.foot{
+    background-color: #0000fe;
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+}
+.cocc{
+    display: flex;
+    flex: 1;
+    height: 550px;
+    gap: 15px;
+}
+body{
+    font-size: 20px;
+}
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .side1{
+        margin: 0 10px;
+    }
+    .main{
+        margin: 0 10px;
+    }
+    .side2{
+        margin: 0 10px;
+    }
+    .cocc{
+        flex-direction: column;
+        margin: 0 10px;
+    }
+}
